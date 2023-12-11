@@ -12,7 +12,7 @@ namespace ScalingStartCredits
     {
         public const string modGUID = "sunnobunno.scalingstartcredits";
         public const string modName = "Scaling Start Credits";
-        public const string modVersion = "1.0.0";
+        public const string modVersion = "1.0.1";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
