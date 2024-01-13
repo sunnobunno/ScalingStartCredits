@@ -30,7 +30,7 @@ namespace ScalingStartCredits.Patches
             groupCreditIncreaseIncrement = ScalingStartCreditsBase.Instance.configCreditIncrement.Value;
             playerThreshold = ScalingStartCreditsBase.Instance.configPlayerCountThreshold.Value;
             playerCount = ___playersManager.fullyLoadedPlayers.Count;
-            days = ___playersManager.daysPlayersSurvivedInARow;
+            days = ___playersManager.gameStats.daysSpent;
             bool conditionsMet = true;
 
 
